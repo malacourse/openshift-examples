@@ -29,7 +29,7 @@
 	<dependency>
            <groupId>org.hibernate</groupId>
 	   <artifactId>hibernate-validator</artifactId>	    
-	   <version>4.3.3.Final</version>
+           <version>4.3.3.Final-redhat-1</version>
         </dependency>
     </dependencies>
     <build>
