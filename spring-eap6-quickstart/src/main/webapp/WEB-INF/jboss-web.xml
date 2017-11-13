@@ -5,6 +5,6 @@
       <res-type>javax.sql.DataSource</res-type>
       <res-auth>Container</res-auth>
       <!-- <jndi-name>java:jboss/datasources/SpringQuickstartDS</jndi-name> -->
-      <jndi-name>java:jboss/datasources/MySqlSpring</jndi-name>
+      <jndi-name>java:jboss/datasources/mysqlspring</jndi-name>
    </resource-ref>	
 </jboss-web>
