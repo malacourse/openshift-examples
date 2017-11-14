@@ -6,7 +6,7 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
 
-   <!-- <datasource jndi-name="java:jboss/datasources/SpringQuickstartDS" pool-name="SpringQuickstartDS" enabled="true" use-java-context="true">
+    <datasource jndi-name="java:jboss/datasources/SpringQuickstartDS" pool-name="SpringQuickstartDS" enabled="true" use-java-context="true">
         <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
         <driver>h2</driver>
         <security>
@@ -14,7 +14,7 @@
             <password>sa</password>
         </security>
     </datasource>
-   -->
+   <!--
    <datasource jndi-name="java:jboss/datasources/mysqlspring" pool-name="SpringQuickstartDS" enabled="true" use-java-context="true">
         <connection-url>jdbc:mysql://mysqlspring.tda-default.svc:3306/springdata</connection-url>
         <driver>h2</driver>
@@ -23,6 +23,6 @@
             <password>password</password>
         </security>
     </datasource>   
-
+-->
 </datasources>
 
