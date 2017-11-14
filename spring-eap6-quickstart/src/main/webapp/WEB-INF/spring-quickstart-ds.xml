@@ -17,7 +17,7 @@
    -->
    <datasource jndi-name="java:jboss/datasources/mysqlspring" pool-name="SpringQuickstartDS" enabled="true" use-java-context="true">
         <connection-url>jdbc:mysql://mysqlspring.tda-default.svc:3306/springdata</connection-url>
-        <driver>h2</driver>
+        <driverClassName>com.mysql.jdbc.Driver</driverClassName>
         <security>
             <user-name>mysqlspring</user-name>
             <password>password</password>
